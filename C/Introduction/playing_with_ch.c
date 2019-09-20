@@ -17,4 +17,6 @@ int main(){
     printf("%s\n", s);
     printf("%s\n",sen);
 
+    return 0;
+
 }
