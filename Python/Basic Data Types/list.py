@@ -5,15 +5,15 @@ for n in range(n):
     command = x[0]
     if command == 'append':
         list.append(int(x[1]))
-    if command == 'print':
+    elif command == 'print':
         print(list)
-    if command == 'insert':
+    elif command == 'insert':
         list.insert(int(x[1]), int(x[2]))
-    if command == 'reverse':
+    elif command == 'reverse':
         list.reverse()
-    if command == 'pop':
+    elif command == 'pop':
         list.pop()
-    if command == 'sort':
+    elif command == 'sort':
         list.sort()
-    if command == 'remove':
+    else:
         list.remove(int(x[1]))
