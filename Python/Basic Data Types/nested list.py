@@ -9,5 +9,5 @@ if __name__ == '__main__':
         b=sorted(list(set(scorelist)))[1] 
 
         for a,c in sorted(marksheet):
-             if c==b:
+             if c == b:
                     print(a)
